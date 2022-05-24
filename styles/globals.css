@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
 :root{
   --btn_bg_color: #00DAC8;
 }
@@ -5,8 +6,9 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  /*font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,*/
+  /*  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;*/
+  font-family: 'Roboto Mono', monospace;
 }
 
 a {
@@ -55,15 +57,21 @@ a:hover{
   height: 500px;
 }
 .digitvl-iframe{
-  width: 660px;
-  height: 315px;
+  width: 100%;
+  height: 600px;
 }
 .custom-text1{
-  font-size: 70px;
+  font-size: 40px;
   font-weight: 600;
 }
+.text-black{
+  color: #000000;
+}
+.height-100vh{
+  height: 100vh;
+}
 .custom-text2{
-  color: #4E4B4B;
+  color: var(--btn_bg_color);
   font-size: 30px;
   font-weight: 600;
 }
