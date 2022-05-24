@@ -134,7 +134,13 @@ a:hover{
     height: 315px;
   }
   .custom-text1{
-    font-size: 50px;
+    font-size: 20px;
     font-weight: 600;
+  }
+  .custom-text2{
+    font-size: 15px;
+  }
+  .custom-text-section2{
+    font-size: 20px;
   }
 }

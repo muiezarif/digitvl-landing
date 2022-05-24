@@ -75,7 +75,7 @@ export default function Home() {
                 {/*        </div>*/}
                 {/*    </div>*/}
                 {/*</div>*/}
-                <div className="row pt-4" align="center">
+                <div className="row" align="center">
                     <div className="col-md-12 col-sm-12">
                         <img
                             className="digitvl-main-logo-img"
@@ -83,7 +83,7 @@ export default function Home() {
                             alt="digitvl logo"/>
                     </div>
                 </div>
-                <div className="row pt-5" align="center">
+                <div className="row pt-2" align="center">
                     <div className="col-md-3">
                         <a href="https://app.digitvl.com/" rel="noreferrer" target="_blank"><b>Stream</b></a>
                     </div>
@@ -100,7 +100,7 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className="row pt-5" align="center">
+                <div className="row pt-4" align="center">
                     <div className="col-md-8 col-sm-12 my-auto">
                         <div className="row" align="center">
                             <div className="col-md-12">
@@ -249,6 +249,10 @@ export default function Home() {
             </div>
             <div className="row mt-3" align="center">
                 <div className="col-md-12 col-sm-12">
+                    <a href="https://algoexplorer.io/asset/462629820" rel="noreferrer"
+                       target="_blank"> <img src="https://digitvl.org/wp-content/uploads/2021/12/DIGITVL-COIN-e1639264782437-150x150.png" alt=""/></a>
+                </div>
+                <div className="col-md-12 col-sm-12 mt-3">
                     <a href="https://www.instagram.com/digitvl_/" rel="noreferrer" target="_blank">
                         <FaInstagram size={30} color="purple"/>
                     </a>
@@ -266,10 +270,7 @@ export default function Home() {
                         <FaTwitter size={30} className="ml-2" color="#1DA1F2"/>
                     </a>
                 </div>
-                <div className="col-md-12 col-sm-12">
-                    <a href="https://algoexplorer.io/asset/462629820" rel="noreferrer"
-                       target="_blank"> <img src="https://digitvl.org/wp-content/uploads/2021/12/DIGITVL-COIN-e1639264782437-150x150.png" alt=""/></a>
-                </div>
+
             </div>
         </div>
     )
