@@ -1,3 +1,6 @@
+:root{
+  --btn_bg_color: #00DAC8;
+}
 html,
 body {
   padding: 0;
@@ -10,7 +13,120 @@ a {
   color: inherit;
   text-decoration: none;
 }
-
+a:hover{
+  color: #00DAC8;
+  text-decoration: none;
+}
 * {
   box-sizing: border-box;
+}
+.row{
+  margin:0;
+  padding:0;
+}
+.bg-black{
+  background: #000000 ;
+}
+.bg-rosewood{
+  background: #65000B;
+}
+.bg-blue{
+  background: #19437D;
+}
+.bg-purple{
+  background: #6A1F82;
+}
+.btn-bg-yellow{
+  background: #EEF20C;
+}
+.text-white{
+  color:#ffffff;
+}
+.digitvl-main-logo-img{
+  width: 15%;
+  height: auto;
+}
+.digitvl-text-logo-img{
+  width: 500px;
+  height: auto;
+}
+.digitvl-nft-utility-img{
+  width: 500px;
+  height: 500px;
+}
+.digitvl-iframe{
+  width: 660px;
+  height: 315px;
+}
+.custom-text1{
+  font-size: 70px;
+  font-weight: 600;
+}
+.custom-text2{
+  color: #4E4B4B;
+  font-size: 30px;
+  font-weight: 600;
+}
+.custom-heading-section1{
+  font-size: 38px;
+  font-weight: 600;
+}
+.custom-text-section2{
+  font-size: 25px;
+  font-weight: 400;
+}
+.btn-outline-primary {
+  color: var(--btn_bg_color);
+  background-color: transparent;
+  border-color: var(--btn_bg_color);
+}
+
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: var(--btn_bg_color);
+  border-color: var(--btn_bg_color);
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: var(--btn_bg_color);
+  border-color: var(--btn_bg_color);
+}
+.bg-primary-dark {
+  background: #162332;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: var(--btn_bg_color);
+  border-color: var(--btn_bg_color);
+}
+.dtree-links-username{
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--btn_bg_color);
+}
+.dtree-profile-page{
+  height: 100%;
+}
+@media screen and (max-width: 540px) {
+  .digitvl-main-logo-img{
+    width: 40%;
+    height: auto;
+  }
+  .digitvl-text-logo-img{
+    width: 300px;
+    height: auto;
+  }
+  .digitvl-nft-utility-img{
+    width: 100%;
+    height: auto;
+  }
+  .digitvl-iframe{
+    width: 100%;
+    height: 315px;
+  }
+  .custom-text1{
+    font-size: 50px;
+    font-weight: 600;
+  }
 }
