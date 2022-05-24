@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import DigitvlLinktreeProfilePage from "../../components/DigitvlLinktreeProfilePage";
+import DigitvlLinktreeProfilePage from "../../Components/DigitvlLinktreeProfilePage";
 import {useRouter} from "next/router";
 
 export default function dTreeProfile(props) {
